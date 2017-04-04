@@ -1,0 +1,16 @@
+version: '2'
+services:
+  myweb:
+    image: nginx
+    cpu_shares: 100
+    mem_limit: 400M
+    ports:
+      - "0:80"
+  #   links:
+  #     - awslogs
+  # awslogs:
+  #   image: pahud/awslogs
+  #   cpu_shares: 100
+  #   mem_limit: 100M
+  #   environment:
+  #     foo: bar
