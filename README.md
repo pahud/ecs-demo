@@ -28,7 +28,7 @@
 
 
 
-// update security group ofecsalb, attach the security group “*ECSALB”*previously created to this ALB
+// update security group ofecsalb, attach the security group ***ECSALB*** previously created to this ALB
 
 
 
